@@ -20,7 +20,7 @@
   * `chmod +w filename` - grants write permission to the file
   * `chmod -wx filename` - revokes write and execute permissions from the file
   * Can be applied to the user (`u`), a group (`g`), others (`o`) or all (`a`)
-  * `chmod u=+w filename` grants write permission, but revokes previously granted permissions 
+  * `chmod u=+w filename` grants write permission to the user, but revokes previously granted permissions 
 
 * What does `777`, `400`, `600`, `r`, `w`, `x` mean?
   * `777` - read, write and execute permission for any user
