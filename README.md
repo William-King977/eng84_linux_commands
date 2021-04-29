@@ -9,8 +9,8 @@
 * **What is a Wildcard and how do you use them?**
   * A symbol or a set of symbols that represent other characters.
   * `*` - any number of characters. E.g. `ls p*` lists files starting with `p`.
-  * `?` - single occurance of any character. E.g. `ls l?st.txt` lists files starting with `l` and ending with `st.txt`.
-  * `[]` - matches any occurence of a character in the brackets. E.g. `ls [abdcio]ist.txt` lists files starting with one of the characters inside the brackets and ends with `ist.txt` (`cist.txt`, `dist.txt` etc.).
+  * `?` - single occurrence of any character. E.g. `ls l?st.txt` lists files starting with `l` and ending with `st.txt`.
+  * `[]` - matches any occurrence of a character in the brackets. E.g. `ls [abdcio]ist.txt` lists files starting with one of the characters inside the brackets and ends with `ist.txt` (`cist.txt`, `dist.txt` etc.).
 
 * **How can you do Process Management?**
   * Controlling the current processes in the foreground and background. Some commands are shown below and the next two questions.
