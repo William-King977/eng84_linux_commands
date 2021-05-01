@@ -1,4 +1,39 @@
-# Linux Commands Interview Questions
+# Linux Commands and Interview Questions
+## Linux Commands
+### Basic commands
+* `uname` - username in VM
+* `ls` - list files/folders in current directory
+* `ls -a` - list all directories
+* `cd ..` - go back a single directory
+* `pwd` - current directory
+* `apt-get` in Linux is a package manager to install/update like Windows installer, mac app store
+* update command `sudo apt-get update -y`, `sudo apt-get upgrade -y`
+* `clear` - to clear screen/terminal
+* `top` - check current process
+* `ps`, `ps aux` - check process
+* `systemctl status nginx` - check if NGINX is installed
+
+### File handling
+* `mkdir` - make a new directory, folder.
+* `nano file_name` - create a file and edit it
+* `touch file_name` - create an empty file
+* `mv old_file new_file` - renaming a file named "old_file" to "new_file"
+* `rm file_name` - deletes a file named "file_name"
+* `cp my_file devops/my_file` - copies "my_file" into "devops" folder
+* `mv file_name devops/` - moves "file_name" into "devops" folder
+
+### Permissions
+* `sudo` - used to run commands as an admin
+* `sudo su` - go into admin mode
+* `chmod +rwx filename`
+  * `+` - means add permission
+  * `-` - takes away the permission
+  * `r` - read
+  * `w` - write
+  * `x` - execute
+* `ll` - check current permission(s)
+
+## Interview Questions
 * **How to check Hidden Files and Directories?**
   * `ls -a` - lists all hidden files and directories in the current directory
 
@@ -52,7 +87,7 @@
   * `tail` - prints the last 10 lines of a file
   * `sort` - sorts the file's contents, but the file is not modified
   * `nl` - prints a file with numbered lines
-  * `wc` - prints number of lines, words and characters in a file (`lines words characters filename`)
+  * `wc` - prints the number of lines, words and characters in a file (`lines words characters filename`)
   * The above commands can be used like this: `head filename`
 
 * **What is pipping and redirection?**
